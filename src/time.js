@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
 
 function App(){
     const date = new Date()
@@ -28,4 +27,4 @@ function App(){
            
 }
 
-ReactDOM.render(<App />,document.getElementById("root"))
+export default App
